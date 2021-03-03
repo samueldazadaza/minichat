@@ -1,0 +1,57 @@
+.container {
+    background-color: beige;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-commentary {
+    
+    display: flex;
+    width: 320px;
+    background-color: white;
+    padding: 8px;
+}
+div {
+    
+}
+.logo {
+    background-image: url('./user.jpg');
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: blue;
+}
+.contenido {
+    width: 85%;
+    
+}
+.comentario {
+    position: relative;
+    padding: 9px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 15px;
+    color: rgb(51, 51, 51);
+    margin-left: 10px;
+}
+.comentario .name {
+    font-weight: bold;
+}
+div .emoji {
+    position: absolute;
+    background-color: rgb(245, 245, 245);
+    width: 60px;
+    height: 25px;
+    border-radius: 13px;
+    right: 10px;
+    bottom: -14px;
+    box-shadow: 0px 0px 3px 1px rgb(194, 194, 194);
+    
+}
+.data {
+    display: flex;
+    margin-left: 15px;
+}
+.like {
+    margin: 4px;
+}
